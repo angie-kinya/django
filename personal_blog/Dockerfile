@@ -5,7 +5,7 @@ FROM python:3.11
 ENV PYTHONDONTWRITEBYTECODE 1  # Prevent Python from writing .pyc files
 ENV PYTHONUNBUFFERED 1         # Prevent buffering of Python output
 
-# Set up the working directory
+# Set the working directory
 WORKDIR /app
 
 # Copy requirements and install dependencies
